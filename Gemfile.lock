@@ -1,0 +1,53 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
+    diff-lcs (1.2.5)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    faraday-digestauth (0.2.1)
+      faraday (~> 0.7)
+      net-http-digest_auth (~> 1.4)
+    faraday_hal_middleware (0.0.1)
+      faraday_middleware (>= 0.9, < 0.10)
+    faraday_middleware (0.9.1)
+      faraday (>= 0.7.4, < 0.10)
+    futuroscope (0.1.11)
+    hyperclient (0.7.0)
+      faraday (~> 0.8)
+      faraday-digestauth (~> 0.2)
+      faraday_hal_middleware (~> 0.0.1)
+      faraday_middleware (~> 0.9)
+      futuroscope (>= 0.0.10)
+      net-http-digest_auth (~> 1.2)
+      uri_template (~> 0.5)
+    multipart-post (2.0.0)
+    net-http-digest_auth (1.4)
+    rspec (3.2.0)
+      rspec-core (~> 3.2.0)
+      rspec-expectations (~> 3.2.0)
+      rspec-mocks (~> 3.2.0)
+    rspec-core (3.2.3)
+      rspec-support (~> 3.2.0)
+    rspec-expectations (3.2.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-mocks (3.2.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-support (3.2.2)
+    safe_yaml (1.0.4)
+    uri_template (0.7.0)
+    webmock (1.21.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  hyperclient
+  rspec
+  webmock

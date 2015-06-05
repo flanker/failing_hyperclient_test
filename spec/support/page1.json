@@ -1,0 +1,17 @@
+{
+  "_embedded": {
+    "names": [
+      {"name": "page1" }
+    ]
+  },
+  "_links": {
+    "self": {
+      "title": "Self page",
+      "href": "/page1"
+    },
+    "next": {
+      "title": "Next page",
+      "href": "/page2"
+    }
+  }
+}
