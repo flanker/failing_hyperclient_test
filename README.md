@@ -1,5 +1,5 @@
 # failing_hyperclient_test
-This repo demonstrates a failing test case of HyperClient 
+This repo demonstrates a failing test case of [HyperClient](https://github.com/codegram/hyperclient)
 
 ## Run the test
 
